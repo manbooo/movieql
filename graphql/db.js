@@ -34,7 +34,7 @@ export const getMovie = async id => {
     return movie
 }
 
-export const suggestions = async id => {
+export const getSuggestions = async id => {
     const {
         data: {
             data: { movies }
