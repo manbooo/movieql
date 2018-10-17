@@ -5,11 +5,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "micro",
+    "serve": "nodemon --exec babel-node index.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "graphql-yoga": "^1.16.2"
+    "graphql-yoga": "^1.16.2",
+    "micro": "latest"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
